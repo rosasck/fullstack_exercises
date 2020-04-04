@@ -1,18 +1,7 @@
-@media only screen and (max-width: 476px)
-{
-  body{
-    background-color: white ;
-  }
-}
+h1 {color: #008080;font-family: sans-serif;font-weight: lighter;}
+h2{color: #aaa; display: inline; font-size: medium; font-family: sans-serif;font-weight: lighter;text-align: left;}
 
-@media only screen and (max-width: 768px)
-{
-  body{
-    background-color: white ;
-  }
-}
 
-h1 {color: #006060;}
 body {
   background-color: rgb(0, 78, 78);
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -23,6 +12,7 @@ body {
 }
 
 .form{
+
 background-color: white;
 margin: auto;
 width: 400px;
@@ -32,12 +22,13 @@ border: none;
 }
 .btn{
   font-size: 10px;
+  color: white;
   margin-top: 15px;
   background-color: #006060;
   cursor: pointer;
   display:inline-block;
   text-align: center;
-  padding: 6px 100px;
+  padding: 6px 150px;
 
 }
 .btn:hover{background: #008080;}
