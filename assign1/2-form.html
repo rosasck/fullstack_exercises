@@ -12,13 +12,14 @@
   <div class='form'>
     <h1>CONTACT FORM</h1>
     <form>
-      <h2>Name</h2>(required)<br>
-      <input type='text' name='name' placeholder="Name" required><br>
-      <h2>Email Address</h2>(required)<br>
-      <input type="text" name="email" placeholder="Email Address" required><br>
-      <h2>Comments?</h2><br>
+      <label for='name'>Name </label> (required)<br>
+      <input type='text' id=name name='name' placeholder="Name" required><br>
+      <label for='email'>Email Address </label> (required)<br>
+      <input type="text" id= 'email' name="email" placeholder="Email Address" required><br>
+      <label for='comments'>Comments? </label><br>
       <textarea id="comments" name="comments" style='height:80px' cols="65"></textarea><br>
-      <input type="checkbox" name="signup" value="newsletter"> Sign up for the newsletter <br>
+      <input type="checkbox" name="signup" value="newsletter"> 
+      <label for='signup'>Sign up for the newsletter</label><br>
       <button class="btn"> Submit</button>
 
     </form>
