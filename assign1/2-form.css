@@ -20,6 +20,11 @@ height: 400px;
 display: inline-block;
 border: none;
 }
+input[type=text]{
+  width:80%;
+  padding: 8px 13px;
+  margin: 5px 0;
+}
 .btn{
   font-size: 10px;
   color: white;
