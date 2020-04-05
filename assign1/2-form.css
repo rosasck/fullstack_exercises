@@ -28,6 +28,7 @@ input[type=text]{
 }
 label{
   color: black;
+  text-align: left;
 }
 input[type=checkbox]
 {
@@ -53,31 +54,53 @@ textarea{
 @media screen and (max-width:790px){
 
   body{
-    width: 90%;
+    width: 80%;
     float: none;
   }
   form{
+    width: 80%;
     background-color: white;
-    margin: auto;
     overflow: hidden;
     border: none;
+  }
+  textarea{
+    width: 80%;
   }
 }
 
 @media screen and (max-width:476px)
 {
 body{
-  width: 90%;
+  width: 60%;
   float: none;
 }
   form{
-    width: 90%;
+    width: 80%;
+    height: 80%;
     float: none;
     background-color:white;
     overflow: hidden;
-    margin: auto;
     border: none;
   }
+  textarea{
+    width: 80%;
+  }
+   .btn{
+     width: 80%;
+   }
+   input[type="checkbox"]{
+     width: 90%;
+   }
+   input{
+     width: 80%;
+     display: inline;
+   }
+   h1{
+     width: 80%;
+   }
+   label{
+     width: 80%;
+   }
 }
 /* Colors used include:
     - #aaa;
