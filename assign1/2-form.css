@@ -88,10 +88,7 @@ body{
    .btn{
      width: 80%;
    }
-   input[type="checkbox"]{
-     width: 90%;
-   }
-   input{
+   input[type=text]{
      width: 80%;
      display: inline;
    }
