@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
@@ -6,4 +10,49 @@ body {
 
 a {
   color: rgb(0, 96, 96);
+}
+
+.column1, .column2, .column3{
+  float: left;
+  width: 33%;
+}
+
+.row1{
+  width: 100%;
+  display: table;
+  clear: both;
+  content: "";
+}
+li{
+  list-style: none;
+  font-size: small;
+  color: #006060;
+}
+.card1, .card2, .card3
+{
+  padding:10px;
+  text-align: left;
+  background-color: white;
+  border-radius: 5px;
+  border-color: black;
+}
+h1{
+  font-weight: lighter;
+  font-size: large;
+}
+.description{
+  font-size: small;
+}
+
+
+@media screen and(max-width: 476px)
+{
+  .column1, .column2, .column3{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+
+  }
+  
+
 }
