@@ -15,9 +15,12 @@ a {
 }
 
 .column1, .column2, .column3{
-  border-collapse: collapse;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #555;
   float: left;
-  width: 33%;
+  margin-left: 5px;
+  width: 32%;
 }
 
 .row1{
@@ -30,7 +33,7 @@ a {
 li{
   list-style: none;
   font-size: small;
-  color: #006060;
+  color: rgb(0, 96, 96);
 }
 .card1, .card2, .card3
 {
@@ -40,9 +43,9 @@ li{
   background-color: white;
 }
 h1{
-
+ color: #555;
   font-weight: lighter;
-  font-size: large;
+  font-size: larger;
 }
 .description{
   font-size: small;
