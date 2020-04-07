@@ -50,6 +50,7 @@ li{
 .column{
     padding-top: 20px;
     padding-left: 20px;
+    float: left;
 
 }
 a{
