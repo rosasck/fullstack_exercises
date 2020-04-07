@@ -8,6 +8,7 @@ body{
     background-image: url('../assign1/images/marble-white-1-2018.jpg');
     width: 100%;
     height: auto;
+    overflow: hidden;
 
 }
 header{
