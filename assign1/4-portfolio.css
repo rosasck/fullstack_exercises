@@ -6,6 +6,8 @@
 body{
 
     background-image: url('../assign1/images/marble-white-1-2018.jpg');
+    width: 100%;
+    height: auto;
 
 }
 header{
@@ -45,8 +47,8 @@ li{
 
 }
 .column{
-    width: 20%;
-    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
 
 }
 a{
@@ -67,4 +69,10 @@ text-decoration-thickness: 20px;
 text-decoration: underline;
   color:#008080;
 }
-
+img.resize{
+    border-style: solid;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 300px;
+}
