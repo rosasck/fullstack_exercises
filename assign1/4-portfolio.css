@@ -44,9 +44,13 @@ li{
      margin-left: 50px;
 
 }
+.column{
+    width: 20%;
+    height: auto;
 
+}
 a{
-  padding: 18px 14px;
+  padding: 10px 5px;
   text-align: center;
 }
     
