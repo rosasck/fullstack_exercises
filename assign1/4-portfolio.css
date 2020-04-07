@@ -1,0 +1,66 @@
+
+*{
+    text-decoration-line: none;
+    color: black;
+}
+body{
+
+    background-image: url('../assign1/images/marble-white-1-2018.jpg');
+
+}
+header{
+    display: block;
+}
+.display_name{
+    text-align: center;
+    font-family: "Lucinda Console", Courier, monospace;
+    font-weight: lighter;
+    transform: scale(1.5,1.8);
+
+}
+.welcome_msg{
+    text-align: center;
+    font-family: "Lucinda Console", Courier;
+    font-weight: lighter;
+}
+
+ul{
+  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
+  color: black;
+  font-size: x-large;
+  list-style-type: none;
+  margin:0;
+  padding: 0px;
+  text-align: center;
+
+  background-color: white;
+}
+li{
+    color: black;
+    display: inline;
+    text-align: center;
+
+     padding: 18px 14px;
+     margin-left: 50px;
+
+}
+
+a{
+  padding: 18px 14px;
+  text-align: center;
+}
+    
+a:hover{
+  color:#008080;
+}
+a:active{
+  text-decoration: underline;
+background-color: #008080;
+  color:white;
+}
+a:focus{
+text-decoration-thickness: 20px;
+text-decoration: underline;
+  color:#008080;
+}
+
