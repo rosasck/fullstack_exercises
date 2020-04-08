@@ -55,6 +55,8 @@ li{
   content: "";
   display: table;
   clear: both;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 .column{
     
@@ -65,15 +67,20 @@ li{
    
 }
 .column2{
-  padding-left: 10px;
+  padding-left: 100px;
   padding-top: 20px;
   float: left;
   width: 30%;
 }
 .column3{
+  
+  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
+  background-color: white;
   width: 30%;
   float: left;
-  padding-left: 10px;
+  border-style: solid;
+  text-align: center;
+
 }
 a{
   padding: 10px 5px;
