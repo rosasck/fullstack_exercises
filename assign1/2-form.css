@@ -122,7 +122,6 @@ body{
      text-align: center;
    }
    input[type=text], [type=email]{
-     width: 80%;
      display: inline;
    }
    
