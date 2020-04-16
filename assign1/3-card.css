@@ -18,6 +18,7 @@ a {
   border-style: solid;
   border-width: 2px;
   border-color: #555;
+  border-color: lightgray;
   float: left;
   margin-left: 5px;
   width: 32%;
@@ -33,7 +34,9 @@ a {
 li{
   list-style: none;
   font-size: small;
-  color: rgb(0, 96, 96);
+
+ /* color: rgb(0, 96, 96);*/
+  color:#008080;
 }
 .card1, .card2, .card3
 {
