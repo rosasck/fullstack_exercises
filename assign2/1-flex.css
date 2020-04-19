@@ -20,6 +20,6 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
-  justify-content:center;
+  justify-content: space-around;
   align-content: space-between;
 }
