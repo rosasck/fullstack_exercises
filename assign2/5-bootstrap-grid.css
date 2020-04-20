@@ -12,3 +12,84 @@
   background-color: coral;
   background-color: green; 
 */
+.container{
+  display: flexbox;
+
+}
+.grid-item{
+  color:white;
+  padding: 20px;
+  text-align: left;
+}
+
+.col-2{
+  padding: 1px;
+}
+
+.col-3{
+  padding: 1px;
+
+}
+.col-6{
+
+  padding: 1px;
+}
+
+.col-4{
+
+  padding: 1px;
+}
+ .col-8{
+
+  padding: 1px;
+}
+.col-12{
+
+  padding: 1px;
+}
+.item{
+  background-color: navy;
+
+padding-left: 5px;
+padding-right: 20px;
+padding-bottom: 40px;
+
+}
+.item2{
+background-color: purple;
+
+padding-left: 5px;
+padding-right: 10px;
+padding-bottom: 40px;
+}
+.item3{
+background-color: palevioletred;
+
+
+padding-left: 5px;
+padding-right: 20px;
+padding-bottom: 40px;
+}
+.item4{
+background-color: teal;
+
+
+padding-left: 5px;
+padding-right: 20px;
+padding-bottom: 40px;
+}
+.item5{
+background-color: green;
+
+
+padding-left: 5px;
+padding-right: 20px;
+padding-bottom: 40px;
+}
+.item6{
+background-color: coral;
+
+padding-left: 5px;
+padding-right: 20px;
+padding-bottom: 40px;
+}
