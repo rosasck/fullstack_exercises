@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-size: 1.1em;
+  color: #222222;
+}
+.body{
+    background-color: #222222;
+}
+.container{
+    display: inline-flexbox;
+    width: 380px;
+    height: 450px;
+    border: none;
+    text-align: left;
+    background-color: darkgreen;
+    padding-left: 20px;
+}
+.row{
+}
+.grid-item{
+    color:white;
+    text-align: left;
+}
+label{
+    font-size: 10px;
+}
+.col-12{
+    max-height: 90px;
+
+}
+.title_name{
+    max-height: 20px;
+}
+h1{
+    font-size: smaller;
+}
+.title{
+
+}
+.name{
+
+}
+.email{
+
+}
+
+.message{
+
+}
+
+
+input[type=text],[type=email]{
+  text-align: left;
+  width:80%;
+  padding: 8px 13px;
+  margin: 5px 0;
+}
+
+input[type=checkbox]
+{
+  text-align-last: left;
+}
+
+.btn:hover{background: #008080;}
