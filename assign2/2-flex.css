@@ -17,24 +17,6 @@
 /* Add your code here */
 .flex-container{
   display: flex;
-  flex-direction: column-reverse;
   flex-wrap: wrap;
-}
-
-.item1{
-  align-self: start;
-  margin-bottom: 100%;
-}
-
-.item4, .item3, .item2{
-  margin-left: auto;
-}
-
-.item7, .item6, .item5{
-  margin-left: 50%;
-}
-
-.item8, .item9, .item10{
-  align-self: start;
-  margin-left: 30%;
+  flex-direction: column-reverse;
 }
