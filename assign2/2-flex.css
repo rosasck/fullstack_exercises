@@ -17,6 +17,39 @@
 /* Add your code here */
 .flex-container{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   flex-direction: column-reverse;
+  height: 300px;
+  align-items: flex-end;
+ 
+  
 }
+.item1{
+ order: 1;
+}
+/*
+.item10{
+}
+.item2{
+
+}
+.item3{
+  
+}
+.item4{
+  
+}
+.item5{
+  
+}
+.item6{
+  
+}
+.item7{
+  
+}
+
+.item8{
+  
+}
+*/
