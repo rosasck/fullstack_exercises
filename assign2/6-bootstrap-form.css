@@ -105,7 +105,7 @@ input[type=checkbox]
 }
 
 
-@media only screen and (max-width: 768 px)
+@media screen and (max-width: 768 px)
 {
 
 .myform{
@@ -123,7 +123,7 @@ input[type=checkbox]
 
 .container{
     display: inline-flexbox;
-    width: 80%;
+    width: 700px;
     height: auto;
     border: none;
     text-align: left;
@@ -133,7 +133,7 @@ input[type=checkbox]
 }
 
 
-@media only screen and (max-width: 414 px)
+@media screen and (max-width: 414 px)
 {
 
 .myform{
@@ -151,7 +151,7 @@ input[type=checkbox]
     
 .container{
     display: inline-flexbox;
-    width: 80%;
+    width: 400px;
     height: auto;
     border: none;
     text-align: left;
