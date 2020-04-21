@@ -3,41 +3,52 @@
   font-size: 1.1em;
   color: #222222;
 }
-.body{
+body{
     background-color: #222222;
 }
 .container{
     display: inline-flexbox;
     width: 380px;
-    height: 450px;
+    height: 500px;
     border: none;
     text-align: left;
-    background-color: darkgreen;
     padding-left: 20px;
 }
-.row{
+.myform{
+
+    background-color:white;
+    border-style: solid;
+    margin-top: 10%;
+    border-radius: 3%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 .grid-item{
     color:white;
     text-align: left;
 }
 label{
-    font-size: 10px;
+    font-size: 15px;
+    margin-left: 5%;
 }
 .col-12{
-    max-height: 90px;
+    max-height: 100%;
 
 }
 .title_name{
     max-height: 20px;
 }
 h1{
-    font-size: smaller;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 .title{
 
 }
 .name{
+    padding-top: 30px;
 
 }
 .email{
@@ -47,18 +58,103 @@ h1{
 .message{
 
 }
-
+.sig{
+    margin-left: 0px;
+}
 
 input[type=text],[type=email]{
   text-align: left;
   width:80%;
-  padding: 8px 13px;
-  margin: 5px 0;
+  margin-left: 5%;
+  margin-top: 3px;
+  border-style: solid;
+  border-color:#2222;
+  border-radius: 3%;
+  max-height: 40px;
+}
+textarea{
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #2222;
+    border-radius: 4%;
 }
 
 input[type=checkbox]
 {
   text-align-last: left;
+  margin-left: 5%;
+}
+.btn{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    max-width: 50%;
+    width: 45%;
+    color: white;
+    font-size: small;
+}
+.sub{
+    margin-left: 5%;
+    background-color: #007aff;
+}
+.res{
+    background-color: slategrey;
 }
 
-.btn:hover{background: #008080;}
+.btn:hover{background-color:black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768 px)
+{
+
+.myform{
+
+    background-color:white;
+    border-style: solid;
+    margin-top: 10%;
+    border-radius: 3%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 700px;
+    height: auto;
+
+}
+
+.container{
+    display: inline-flexbox;
+    width: 80%;
+    height: auto;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 414 px)
+{
+
+.myform{
+
+    background-color:white;
+    border-style: solid;
+    margin-top: 10%;
+    border-radius: 3%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 80%;
+    height: auto;
+
+}
+    
+.container{
+    display: inline-flexbox;
+    width: 80%;
+    height: auto;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+}
+}

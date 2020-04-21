@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="container">
+      <form class="myform">
       <div class="row">
         <div class="grid-item col-12">
           <div class="title_name" >
@@ -27,8 +28,8 @@
         <div class="grid-item col-12">
           <div class="name" >
             
-      <label for='name'>Name </label><br>
-      <input type='text' id=name name='name' required>
+      <label for='name'>Name *</label><br>
+      <input type='text' aria-label=" name" id=name name='name' required>
           </div>
         </div>
       </div>
@@ -36,8 +37,9 @@
         <div class="grid-item col-12">
           <div class="email" >
 
-      <label for='email'>Email Address </label> <br>
-      <input type="email" id= 'email' name="email" required>
+      <label for='email'>Email *</label> <br>
+
+      <input type="email" aria-label="email" id= 'email' name="email" required>
           </div>
         </div>
       </div>
@@ -47,8 +49,8 @@
         <div class="grid-item col-12">
           <div class="message" >
 
-      <label for='comments'>Message </label><br>
-      <textarea id="comments" name="comments" style='height:60px' cols="20"></textarea>
+      <label for='comments'> Submit your message: </label><br>
+      <textarea aria-label="message"id="comments" name="comments" style='height:60px' cols="18"></textarea>
           </div>
         </div>
       </div>
@@ -58,8 +60,8 @@
         <div class="grid-item col-12">
           <div class="signup" >
 
-      <input type="checkbox" name="signup" value="newsletter"> 
-      <label for="signup"> Sign up for the newsletter</label>
+      <input type="checkbox" name="signup"  aria-label="newsletter sign up"value="newsletter"> 
+      <label class="sig" for="signup"> Sign up for the newsletter</label>
           </div>
         </div>
       </div>
@@ -68,15 +70,15 @@
         <div class="grid-item col-12">
           <div class="submit_reset" >
 
-              <button class="btn" value="Submit"> Submit</button>
+              <button class="btn sub" value="Submit" role="group" aria-label="submit"> Submit</button>
 
-      <button class="btn" value="Reset"> Reset</button>
+      <button class="btn res" value="Reset" role="group" aria-label="reset"> Reset</button>
 
           </div>
         </div>
       </div>
 
-
+      </form>
     </div><!-- end of container-->
   </body>
 </html>
