@@ -1,5 +1,5 @@
 // Enter your code here
-/*function fizzbuzz(){*/
+function fizzbuzz(){
 let num=1;
 while( num <= 100)
 {
@@ -21,5 +21,4 @@ while( num <= 100)
 
     num+=1;
 }
-/*}*/
-
+}
