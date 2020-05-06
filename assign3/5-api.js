@@ -12,7 +12,7 @@ function displayCountries(){
           if(resp.status === 200)
           {
                var obj= JSON.parse(resp);
-               console.log(obj[name] + ' - ' + obj[population]);
+               console.log(obj.name + ' - ' + obj.population);
           }
           else
           {

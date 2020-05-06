@@ -7,7 +7,8 @@ fetch(url)
     return response.json();
 })
 .then(data =>{
-    document.getElementById("results").insertAdjacentHTML("beforebegin", data + '\n');
+    console.log('Data', data);
+   // document.getElementById("results").insertAdjacentHTML("beforebegin", data);
 })
 .catch(error =>{
     console.log('Request Failed', error)
