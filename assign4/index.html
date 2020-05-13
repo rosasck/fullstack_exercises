@@ -3,9 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
     <title>Form Exercise</title>
   </head>
-  <body>
-    <!-- Enter your code here -->
+
+  <body class="bg-dark">
+    <form  action= "/submit" method="POST" class="bg-light border rounded w-50 mx-auto mt-5 p-3">
+      <h2 class="mt-2 mb-4">Contact Form</h2>
+      
+        <div class="form-group">
+           <label for='name'>Name *</label><br>
+           <input type='text' class="form-control" aria-label=" name" id=name name='name' required>
+          </div>
+
+
+        <div class="form-group">
+      <label for='email'>Email *</label> <br>
+      <input type="email" class="form-control" aria-label="email" id= 'email' name="email" required>
+          </div>
+
+
+        <div class="form-group">
+      <label for='comments'> Submit your message: </label><br>
+      <textarea class="form-control" aria-label="message"id="comments" name="comments" rows="3"></textarea>
+          </div>
+
+
+        <div class="form-group mt-4">
+          <input type="submit" class="btn btn-primary btn-inline-block w-49" value="Submit "/>
+          <input type="reset" class="btn btn-secondary btn-inline-block w-49"  value="Reset"/>
+          </div>
+
+    </form>
+    <script src="1-form.js"></script>
   </body>
 </html>
