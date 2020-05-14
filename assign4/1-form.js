@@ -9,13 +9,15 @@ app.use(
     limit: 1024
     })
 );
+
+
 app.post('/submit', (req, res)=> {
-    console.log("name: " + req.body.name);
-    console.log("email: " + req.body.email);
-    console.log("comments: " + req.body.comments);
+    res.write("name: " + req.body.name);
+    res.write("email: " + req.body.email);
+    res.write("comments: " + req.body.comments);
     res.end();
 });
 
 app.listen(port, () =>{
-    console.log('Server running at: http://localhost:5000');
+    console.log(`Server running at: http://localhost:${port}`);
 });
