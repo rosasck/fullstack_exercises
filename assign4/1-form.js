@@ -1,20 +1,25 @@
 const express= require('express');
-const parser = require('body-parser');
 const app= express();
+const parser= require('body-parser');
 const port = 5000;
+const path= require("path");
 
 app.use(
-    parser.urlencoded({
-    extended: false,
-    limit: 1024
-    })
+    express.static('public')
 );
 
+var urlencodedParser= parser.urlencoded({extended: false});
 
-app.post('/submit', (req, res)=> {
-    res.write("name: " + req.body.name);
-    res.write("email: " + req.body.email);
-    res.write("comments: " + req.body.comments);
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '/', 'index.html'));
+});
+
+
+app.post('/submit',urlencodedParser, (req, res)=> {
+    res.write("name: " + req.body.name + '\n');
+    res.write("email: " + req.body.email+ '\n');
+    res.write("comments: " + req.body.comments+ '\n');
     res.end();
 });
 
