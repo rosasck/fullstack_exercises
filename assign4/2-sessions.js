@@ -62,7 +62,7 @@ app.get('/', (req, res) => {
         res.send(`Welcome to http://localhost:${port}`)
     }else{
         req.session.example.push(" Currently on route: \n") ;
-        res.send(req.session.example.join('hi'));
+        res.send(req.session.example.join('main'));
     }
 });
 
@@ -71,7 +71,7 @@ app.get('/:character', (req,res) =>{
     res.set({'Content-Type' : 'text/plain'});
     if(req.session.example == undefined){
         req.session.example=[];
-        res.send('Welcome to route: /' + req.params.character + '\n \n');
+        req.session.example.push('Welcome to route: /' + req.params.character + '\n \n');
     }
     else{
         req.session.example.push('Currently on route: /' + req.params.character + '\n'+ 'Previously Visited: \n');
