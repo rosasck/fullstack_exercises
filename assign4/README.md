@@ -14,3 +14,4 @@ Type: npm run build
 should be on ur web browser! 
 
 ## Excercise 4
+type: node api.js 

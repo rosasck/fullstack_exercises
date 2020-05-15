@@ -110,28 +110,30 @@ app.get('/regions', (req,res) =>{
             var Australia=0;
 
               var obj= JSON.parse(resp.responseText);
+
              for(country in obj){
-                    if(obj[country].region.localeCompare('Africa') == 0) {
-                      ++Africa;
+                 
+                    if(obj[country].region === 'Africa') {
+                      Africa= Africa+1;
                      }
-                    else if(obj[country].region.localeCompare('Asia') ==0 ){
-                        ++Asia;
+                    if(obj[country].region === 'Asia'){
+                        Asia=Africa+1;
                      }
-                    else if(obj[country].region.localeCompare("North America")==0 ){
-                         ++North_America;
+                    if(obj[country].region === 'North America'){
+                         North_America=North_America+1;
                        }
-                     else if(obj[country].region.localeCompare("South America")==0){
-                          ++South_America;
+                    if(obj[country].region === 'South America'){
+                          South_America=North_America+1;
                         }
-                    else if(obj[country].region.localeCompare("Antartica") ==0){
-                        ++Antartica;
+                    if(obj[country].region === 'Antartica'){
+                          Antartica= Antartica+1;
                         }      
-                     else if(obj[country].region.localeCompare('Europe')==0){
-                        ++Europe;
+                    if(obj[country].region === 'Europe'){
+                           Europe= Europe+1;
                         }
-                     //if(obj[country].region === "Australia"){
-                         else{
-                             ++Australia;
+                     if(obj[country].region === 'Australia'){
+                         
+                             Australia=Australia+1;
                          }
 
 
