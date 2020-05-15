@@ -4,7 +4,9 @@
   "description": "### Assignment 1 - HTML and CSS - Navbar exercise - Form exercise - Card exercise - Portfolio exercise",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "nodemon": "^2.0.3"
   },
   "devDependencies": {},
